@@ -1,4 +1,12 @@
-//package JSpace;
+
+/*
+* Java Space servers run in the master-slave model. The 
+* server administrator starts the master JSpace server that launches a slave server at each of remote 
+* computing nodes, using the JSCH (secured ssh connection) library. Each server including the master creates a local hash table to maintain user data items, (each packetized in 
+* an Entry object).
+* @author sindhuri Bolisetty
+* @version 2.5.2014
+*/
 
 import java.io.BufferedReader;
 import java.io.IOException;
